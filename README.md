@@ -16,9 +16,9 @@
 ```
 2. Make a call
 ```
-	Set from = "twilio_phone" 				// From step 2 of Setup
-	Set to = "verified_caller_id" 				// From step 3 of Setup
-	Set url = "http://demo.twilio.com/docs/voice.xml" 	// This can be changed to your own url if you would like to use custom TwiML markup
+	Set from = "+18001234567" 				// Twilio phone from step 2 of Setup
+	Set to = "+18008675309" 				// Verified caller ID from step 3 of Setup
+	Set url = "http://demo.twilio.com/docs/voice.xml" 	// web page containing TwiML instructions
 	Set response = twilio.Call(from, to, url)
 	// optionally read/handle response
 ```
