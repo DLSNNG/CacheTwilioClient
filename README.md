@@ -2,9 +2,8 @@
 1. Create an account on [twilio](https://twilio.com)
 2. Add a new phone number under the [Manage Numbers Page](https://www.twilio.com/console/phone-numbers/incoming). This will be the number you call from.
 3. Verify a new caller ID under the [Verified Caller IDs Page](https://www.twilio.com/console/phone-numbers/verified). This will be the number you call to. If you have a trial account, you are only able to make calls to verified numbers.
-4. Fork this Repo and place the *Twilio.Rest.Client.xml* file on your Cache Server
-5. Use Cache Studio's Import tool (located under Tools > Import) to import Twilio.Rest.Client.xml. (Alternatively you could just copy the code from Twilio.Rest.Client.cls since it's just one file)
-6. Make sure you have an SSL Configuration defined. This can be done through the Cache Management Portal under System Administration > Security > SSL/TLS Configurations.
+4. Fork this Repo and place the *Twilio.Rest.Client.xml* file on your Cache Server. Then use Cache Studio's Import tool (located under Tools > Import) to import Twilio.Rest.Client.xml. (Alternatively you could just copy the code from Twilio.Rest.Client.cls since it's just one file)
+5. Make sure you have an SSL Configuration defined. This can be done through the Cache Management Portal under System Administration > Security > SSL/TLS Configurations.
 
 # Usage
 1. Instantiate a new Twilio Client using the Account SID and Auth Token found [here](https://www.twilio.com/console)
